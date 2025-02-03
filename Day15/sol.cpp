@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// Helper function to compute the frequency of each character in a word
+
 vector<int> getFrequency(const string& word) {
     vector<int> freq(26, 0);
     for (char c : word) {
